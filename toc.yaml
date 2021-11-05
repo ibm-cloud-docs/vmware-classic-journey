@@ -1,0 +1,26 @@
+toc:
+  properties:
+    subcollection: vmware-classic-journey
+    category: compute
+    audience: service
+    href: /docs/vmware-classic-journey
+    path: vmware-classic-journey
+    label: Deploying VMware on Classic
+
+  entries:
+    - navgroup:
+      id: learn
+      topics:
+      - vmware-onboarding-1-architecture-and-concepts.hidden.md
+
+    - navgroup:
+      id: how-to
+      topics:
+      - vmware-onboarding-1-architecture-and-concepts.hidden.md
+      - vmware-onboarding-2-network-flows.hidden.md
+      - vmware-onboarding-3-prepare-account.hidden.md
+      - vmware-onboarding-4-order-cluster-storage.hidden.md
+      - vmware-onboarding-5-vsrx-gateway.hidden.md
+      - vmware-onboarding-6-ssl-vpn-client.hidden.md
+      - vmware-onboarding-7-route-through-and-bgp-setup.hidden.md
+      - vmware-onboarding-9-deploy-workload.hidden.md
