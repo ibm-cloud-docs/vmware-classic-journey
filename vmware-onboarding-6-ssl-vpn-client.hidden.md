@@ -13,7 +13,7 @@ subcollection: vmware-classic-journey
 # Setup SSL VPN Client
 {: #vmware-onboarding-ssl-vpn-client}
 
-In this section of the deployment journey, a SSL VPN client is configured. The SSL VPN client establishes connectivity with the IBM Cloud Classic Infra. 
+In this section of the deployment journey, a SSL VPN client is configured. The SSL VPN client establishes connectivity with the IBM Cloud Classic Infrastructure. 
 
 ## Journey Map
 {: #vmware-onboarding-ssl-vpn-client-map}

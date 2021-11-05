@@ -59,7 +59,7 @@ In addition to having the right Classic Infrastructure permissions for deploying
 ## Setup Resource Group
 {: #vmware-onboarding-prepare-account-resource-groups}
 
-Resource Groups allow you to organize the resources/instances into groups (i.e. ProjectA_Resourced, ProjectB_Resources, Dev_Env, Prod_Env, etc.), and can be used as part of the access management strategy (i.e. Developers granted access to resources in Dev_Env resourcce group but no access to Prod_env). When a VMware instance is provisioned, it must be placed within a resource group. Please refer to the follow assets to understand the best practices for using resource groups:
+Resource Groups allow you to organize the resources/instances into groups (i.e. ProjectA_Resources, ProjectB_Resources, Dev_Env, Prod_Env, etc.), and can be used as part of the access management strategy (i.e. Developers granted access to resources in Dev_Env resourcce group but no access to Prod_env). When a VMware instance is provisioned, it must be placed within a resource group. Please refer to the follow assets to understand the best practices for using resource groups:
 
 - [Best practices for resource groups and assigning access](https://{DomainName}/docs/account?topic=account-account_setup)
 

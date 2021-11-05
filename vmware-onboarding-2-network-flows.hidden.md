@@ -13,7 +13,7 @@ subcollection: vmware-classic-journey
 # Plan Network Connectivity Flows
 {: #vmware-onboarding-network-flows}
 
-Taking the time to understand and plan network fows is a key ingredient to successful deployment. As you review this section, consider the connectivity requirements you have today but may also need in the future.
+Taking the time to understand and plan network flows is a key ingredient to successful deployment. As you review this section, consider the connectivity requirements you have today but may also need in the future.
 {: tip}
 
 ## Journey Map

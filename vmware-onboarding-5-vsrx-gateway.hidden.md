@@ -38,7 +38,7 @@ The gateway device both provides a network boundary protecting all traffic enter
 
    <img src="images/solution-vmware-onboarding-hidden/order-vsrx/vcs-infra-page.png" alt="Architecture" style="zoom:67%;" />
 
-1. Scroll down and under network interface expand private VLAN. You will see a field named primary route which will have a value like bcr01a.wdc07 in the example below. This designates that the VCS cluster is in Washington DC 07, POD 1. <u>Take note of this information as is will be needed for the vSRX order</u>.
+1. Scroll down and under network interface expand private VLAN. You will see a field named primary route which will have a value like bcr01a.wdc07 in the example below. This designates that the VCS cluster is in Washington DC 07, POD 1. <u>Take note of this information as it will be needed for the vSRX order</u>.
 
    <img src="images/solution-vmware-onboarding-hidden/order-vsrx/network-interface.png" alt="Architecture" style="zoom:67%;" />
 

@@ -13,7 +13,7 @@ subcollection: vmware-classic-journey
 # Order vCenter Server cluster w/NSX-T and Storage
 {: #vmware-onboarding-order-cluster-storage}
 
-In this section of the deployment journey, a VCS environment ordered. The information below will focus on commonly used configuration. 
+In this section of the deployment journey, a VCS environment is ordered. The information below will focus on commonly used configuration. 
 
 Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud Catalog. Automated deployment will provision the required VLANs, bare metal servers, and VCS software. For the purposes of this guide, the following assumptions are being made:
 
