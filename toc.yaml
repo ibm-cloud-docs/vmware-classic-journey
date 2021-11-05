@@ -14,7 +14,7 @@ toc:
       - vmware-onboarding-1-architecture-and-concepts.hidden.md
 
     - navgroup:
-      id: how-to
+      id: howto
       topics:
       - vmware-onboarding-1-architecture-and-concepts.hidden.md
       - vmware-onboarding-2-network-flows.hidden.md
