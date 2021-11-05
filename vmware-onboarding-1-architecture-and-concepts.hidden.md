@@ -1,46 +1,28 @@
 ---
-subcollection: solution-tutorials
+
 copyright:
   years: 2021
 lastupdated: "2021-11-05"
-lasttested: "2021-11-05"
 
+subcollection: vmware-classic-journey
 
 ---
 
-{:step: data-tutorial-type='step'}
-{:java: #java .ph data-hd-programlang='java'}
-{:swift: #swift .ph data-hd-programlang='swift'}
-{:ios: #ios data-hd-operatingsystem="ios"}
-{:android: #android data-hd-operatingsystem="android"}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:pre: .pre}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Deployment Journey Overview
 {: #vmware-onboarding-architecture-and-concepts}
 
+IBM Cloud for VMware Solutions makes it simpler for your organization to capitalize on the tremendous value of the cloud. The solution provides a path to migrate VMware workloads to the IBM Cloud while using existing tools, technologies and skills from your on-premises environment.  The information contained within this document is meant to serve as a technical guide for starting with a new IBM Cloud towards a fully configured VMware instance. 
+{: shortdesc}
 
+Welcome to the Deployment Journey for VMware on IBM Cloud! Use the sidebar on the left to navigate between the journey points.
+{: tip}
 
 ## Journey Map
 {: #vmware-onboarding-architecture-and-concepts-map}
 
 ![Architecture](images/solution-vmware-onboarding-hidden/intro/journeymap-1.png){: class="center"}
-
-
-
-Welcome to the Deployment Journey for VMware on IBM Cloud! Use the sidebar on the left to navigate between the journey points.
-{: tip}
-
-IBM Cloud for VMware Solutions makes it simpler for your organization to capitalize on the tremendous value of the cloud. The solution provides a path to migrate VMware workloads to the IBM Cloud while using existing tools, technologies and skills from your on-premises environment.  The information contained within this document is meant to serve as a technical guide for starting with a new IBM Cloud towards a fully configured VMware instance. 
-{: shortdesc}
-
-
 
 ## Assumptions
 {: #vmware-onboarding-architecture-and-concepts-assumptions}

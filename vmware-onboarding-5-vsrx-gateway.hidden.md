@@ -1,50 +1,29 @@
 ---
-subcollection: solution-tutorials
+
 copyright:
   years: 2021
 lastupdated: "2021-11-05"
-lasttested: "2021-11-05"
+
+subcollection: vmware-classic-journey
 
 ---
 
-{:step: data-tutorial-type='step'}
-{:java: #java .ph data-hd-programlang='java'}
-{:swift: #swift .ph data-hd-programlang='swift'}
-{:ios: #ios data-hd-operatingsystem="ios"}
-{:android: #android data-hd-operatingsystem="android"}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:pre: .pre}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Order vSRX Gateway
 {: #vmware-onboarding-vsrx-gateway}
-
-
 
 ## Journey Map
 {: #vmware-onboarding-vsrx-gateway-map}
 
 ![Architecture](images/solution-vmware-onboarding-hidden/order-vsrx/journey-map.png){: class="center"}
 
-
-
-
-
 The information below will focus on one of our commonly used gateway devices, a vSRX. However, concepts can be applied to others as well.
 {: tip}
-
-
 
 The gateway device both provides a network boundary protecting all traffic entering and leaving the VCS environment as well as the ability to exchange the overlay network with your on-premise environment. 
 
 ![Architecture](images/solution-vmware-onboarding-hidden/order-vsrx/architecture-vsrx-callout.png){: class="center"}
-
-
 
 ## Detailed Steps
 {: #vmware-onboarding-vsrx-gateway-prereqs}

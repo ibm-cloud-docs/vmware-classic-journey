@@ -1,45 +1,25 @@
 ---
-subcollection: solution-tutorials
+
 copyright:
   years: 2021
 lastupdated: "2021-11-05"
-lasttested: "2021-11-05"
 
+subcollection: vmware-classic-journey
 
 ---
 
-{:step: data-tutorial-type='step'}
-{:java: #java .ph data-hd-programlang='java'}
-{:swift: #swift .ph data-hd-programlang='swift'}
-{:ios: #ios data-hd-operatingsystem="ios"}
-{:android: #android data-hd-operatingsystem="android"}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:pre: .pre}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Plan Network Connectivity Flows
 {: #vmware-onboarding-network-flows}
 
-
+Taking the time to understand and plan network fows is a key ingredient to successful deployment. As you review this section, consider the connectivity requirements you have today but may also need in the future.
+{: tip}
 
 ## Journey Map
 {: #vmware-onboarding-network-flows-map}
 
-
-
 ![Architecture](images/solution-vmware-onboarding-hidden/network-flows/journey-map.png){: class="center"}
-
-
-
-Taking the time to understand and plan network fows is a key ingredient to successful deployment. As you review this section, consider the connectivity requirements you have today but may also need in the future.
-{: tip}
-
-
 
 ## Overview
 {: #vmware-onboarding-network-flows-video-walkthrough}

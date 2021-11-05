@@ -1,25 +1,14 @@
 ---
-subcollection: solution-tutorials
+
 copyright:
   years: 2021
 lastupdated: "2021-11-05"
-lasttested: "2021-11-05"
+
+subcollection: vmware-classic-journey
 
 ---
 
-{:step: data-tutorial-type='step'}
-{:java: #java .ph data-hd-programlang='java'}
-{:swift: #swift .ph data-hd-programlang='swift'}
-{:ios: #ios data-hd-operatingsystem="ios"}
-{:android: #android data-hd-operatingsystem="android"}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:pre: .pre}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configure vSRX Gateway
 {: #vmware-onboarding-route-through-and-bgp-setup}
@@ -29,9 +18,6 @@ lasttested: "2021-11-05"
 {: #vmware-onboarding-route-through-and-bgp-setup-map}
 
 ![Architecture](images/solution-vmware-onboarding-hidden/vsrx-route-through/journey-map.png){: class="center"}
-
-
-
 
 
 ## Overview

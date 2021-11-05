@@ -1,37 +1,17 @@
 ---
-subcollection: solution-tutorials
+
 copyright:
   years: 2021
 lastupdated: "2021-11-05"
-lasttested: "2021-11-05"
+
+subcollection: vmware-classic-journey
 
 ---
 
-{:step: data-tutorial-type='step'}
-{:java: #java .ph data-hd-programlang='java'}
-{:swift: #swift .ph data-hd-programlang='swift'}
-{:ios: #ios data-hd-operatingsystem="ios"}
-{:android: #android data-hd-operatingsystem="android"}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:pre: .pre}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Order vCenter Server cluster w/NSX-T and Storage
 {: #vmware-onboarding-order-cluster-storage}
-
-
-
-## Journey Map
-{: #vmware-onboarding-order-cluster-storage-map}
-
-![Architecture](images/solution-vmware-onboarding-hidden/order-cluster/journey-map.png){: class="center"}
-
-
 
 In this section of the deployment journey, a VCS environment ordered. The information below will focus on commonly used configuration. 
 
@@ -42,9 +22,10 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
 - 6 hosts (bare metal servers) each running Intel Xeon Gold 5218 with 192GB RAM
 - 5TB of NFS storage 
 
-<!--##istutorial#-->
+## Journey Map
+{: #vmware-onboarding-order-cluster-storage-map}
 
-
+![Architecture](images/solution-vmware-onboarding-hidden/order-cluster/journey-map.png){: class="center"}
 
 ## Detailed Steps
 {: #vmware-onboarding-order-cluster-storage-provision}
