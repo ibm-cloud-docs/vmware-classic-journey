@@ -16,7 +16,6 @@ toc:
     - navgroup:
       id: howto
       topics:
-      - vmware-onboarding-1-architecture-and-concepts.hidden.md
       - vmware-onboarding-2-network-flows.hidden.md
       - vmware-onboarding-3-prepare-account.hidden.md
       - vmware-onboarding-4-order-cluster-storage.hidden.md
