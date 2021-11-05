@@ -12,9 +12,7 @@ subcollection: vmware-classic-journey
 
 # Configure the Network and vSRX routing (BGP)
 {: #vmware-onboarding-ipsecvpn}
-{: toc-content-type="tutorial"}
-{: toc-services="vmwaresolutions"}
-{: toc-completion-time="1h"}
+
 
 
 This tutorial may incur costs. Use the [Cost Estimator](https://{DomainName}/estimator/review) to generate a cost estimate based on your projected usage.

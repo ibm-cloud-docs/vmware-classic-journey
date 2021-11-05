@@ -12,9 +12,6 @@ subcollection: vmware-classic-journey
 
 # NSX-T Upgrade (Day2)
 {: #vmware-onboarding-nsx-t-upgrade}
-{: toc-content-type="tutorial"}
-{: toc-services="vmwaresolutions"}
-{: toc-completion-time="1h"}
 
 This tutorial may incur costs. Use the [Cost Estimator](https://{DomainName}/estimator/review) to generate a cost estimate based on your projected usage.
 {: tip}
