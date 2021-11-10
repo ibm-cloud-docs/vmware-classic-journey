@@ -38,14 +38,14 @@ If you are working on a brand new IBM Cloud Account, you will most likely find t
 ## Configure IAM
 {: #vmware-onboarding-prepare-account-iam}
 
-IBM Identity and Access Management (IAM) should be planned ahead and configured before the provisioning of  a VMware solution on IBM Cloud. This the VMware solution described in this guide will be deployed on Classic Infrastructure (not VPC), so you must have certain Classic Infrastructure permissions to be able to order the underlying devices VMware will be deployed to.  Please refer to the follow assets to understand IAM concepts and required Classic Infrastructure permissions:
+IBM Identity and Access Management (IAM) should be planned ahead and configured before the provisioning of  a VMware solution on IBM Cloud. The VMware solution described in this guide will be deployed on Classic Infrastructure (not VPC), so you must have certain Classic Infrastructure permissions to be able to order the underlying devices VMware will be deployed to.  Please refer to the follow assets to understand IAM concepts and required Classic Infrastructure permissions:
 
 
 - [Understand IAM Concepts in the IBM Cloud](https://{DomainName}/docs/account?topic=account-iamoverview)
 
 - [How to Manage Classic Infrastructure Access](https://{DomainName}/docs/account?topic=account-mngclassicinfra)
 
-- [Required Classic Infrastructure Permissions Needed for VMware Deployments on Classic Infrastructure](https://{DomainName}/vmwaresolutions?topic=vmwaresolutions-cloud-infra-acct-req)
+- [Required Classic Infrastructure Permissions Needed for VMware Deployments on Classic Infrastructure](https://{DomainName}/docs/vmwaresolutions?topic=vmwaresolutions-cloud-infra-acct-req)
 
 
 
