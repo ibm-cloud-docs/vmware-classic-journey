@@ -22,7 +22,7 @@ Welcome to the Deployment Journey for VMware on IBM Cloud! Use the sidebar on th
 ## Journey Map
 {: #vmware-onboarding-architecture-and-concepts-map}
 
-![Architecture](images/solution-vmware-onboarding-hidden/intro/journeymap-1.png){: class="center"}
+![Architecture](images/solution-vmware-onboarding-hidden/intro/journeymap-1.png){: caption="" caption-side="bottom"}
 
 ## Assumptions
 {: #vmware-onboarding-architecture-and-concepts-assumptions}
@@ -48,7 +48,7 @@ IBM Cloud for VMware Solutions provides different offerings to address different
 
 The following architecture represents the pattern this deployment journey will following.  
 
-![Architecture](images/solution-vmware-onboarding-hidden/architecture.jpg){: class="center"}
+![Architecture](images/solution-vmware-onboarding-hidden/architecture.jpg){: caption="" caption-side="bottom"}
 
 
 
