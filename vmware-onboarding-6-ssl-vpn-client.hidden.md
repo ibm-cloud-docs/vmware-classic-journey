@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -48,5 +48,5 @@ Once connected, validate connectivity by pinging the vCenter IP and/or opening t
 
 The next step on the deployment journey is:
 
-* [Configure vSRX (Route Thru Mode and BGP)](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-route-through-and-bgp-setup)
+* [Configure vSRX (Route Thru Mode and BGP)](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-route-through-and-bgp-setup)
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -22,7 +22,7 @@ Welcome to the Deployment Journey for VMware on IBM Cloud! Use the sidebar on th
 ## Journey Map
 {: #vmware-onboarding-architecture-and-concepts-map}
 
-![Architecture](images/solution-vmware-onboarding-hidden/intro/journeymap-1.png){: class="center"}
+![Architecture](images/solution-vmware-onboarding-hidden/intro/journeymap-1.png)
 
 ## Assumptions
 {: #vmware-onboarding-architecture-and-concepts-assumptions}
@@ -48,7 +48,7 @@ IBM Cloud for VMware Solutions provides different offerings to address different
 
 The following architecture represents the pattern this deployment journey will following.  
 
-![Architecture](images/solution-vmware-onboarding-hidden/architecture.jpg){: class="center"}
+![Architecture](images/solution-vmware-onboarding-hidden/architecture.jpg){: caption="" caption-side="bottom"}
 
 
 
@@ -60,6 +60,7 @@ The following architecture represents the pattern this deployment journey will f
 ## Next Steps
 {: #vmware-onboarding-architecture-and-concepts-next-steps}
 
-The next step in the series is:
+The next step on the deployment journey is:
 
-* [Understanding Network Flows](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-vrf-service-endpoints)
+* [Understanding Network Flows](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-network-flows)
+
