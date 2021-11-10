@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -80,4 +80,5 @@ The steps to configure your Classic Infrastruture API key can be found in the [d
 
 The next step on the deployment journey is:
 
-* [Order vCenter Server](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-order-cluster-storage)
+* [Order vCenter Server](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-order-cluster-storage)
+

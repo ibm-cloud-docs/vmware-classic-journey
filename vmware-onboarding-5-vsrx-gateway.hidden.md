@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -102,5 +102,5 @@ The gateway device both provides a network boundary protecting all traffic enter
 
 The next step on the deployment journey is:
 
-* [Setup SSL VPN Client](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-ssl-vpn-client)
+* [Setup SSL VPN Client](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-ssl-vpn-client)
 

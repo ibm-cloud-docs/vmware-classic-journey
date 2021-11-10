@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -237,4 +237,5 @@ bgp {
 
 The next step on the deployment journey is:
 
-* [Deploy Initial VM workload](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-bgp)
+* [Deploy Initial VM workload](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-deploy-workload)
+

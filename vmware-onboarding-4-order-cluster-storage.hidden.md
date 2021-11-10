@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -110,4 +110,5 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
 
 The next step on the deployment journey is:
 
-* [Order vSRX Gateway](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-vsrx-gateway)
+* [Order vSRX Gateway](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-vsrx-gateway)
+

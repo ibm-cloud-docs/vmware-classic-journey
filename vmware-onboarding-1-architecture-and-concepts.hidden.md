@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -60,6 +60,7 @@ The following architecture represents the pattern this deployment journey will f
 ## Next Steps
 {: #vmware-onboarding-architecture-and-concepts-next-steps}
 
-The next step in the series is:
+The next step on the deployment journey is:
 
-* [Understanding Network Flows](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-vrf-service-endpoints)
+* [Understanding Network Flows](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-network-flows)
+

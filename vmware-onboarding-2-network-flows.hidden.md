@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-09"
 
 subcollection: vmware-classic-journey
 
@@ -71,6 +71,7 @@ In this section, detailed network flows will be reviewed. The following network 
 ## Next Steps
 {: #vvmware-onboarding-network-flows-next-steps}
 
-The next step in the series is:
+The next step on the deployment journey is:
 
-* [Prepare Your Cloud Account](/docs/solution-tutorials?topic=solution-tutorials-vmware-onboarding-resource-groups-iam)
+* [Prepare Your Cloud Account](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-prepare-account)
+
