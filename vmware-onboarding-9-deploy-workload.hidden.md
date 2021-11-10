@@ -30,6 +30,7 @@ The steps involved in the exercise are:
 {: #vmware-onboarding-deploy-workload-create-library}
 
 1. Log into vCenter using the IP address and credentials provided in the IBM Cloud for VMware Solutions portal.
+
 2. From the default start page using the menu select Content Libraries.
 
    ![Architecture](images/solution-vmware-onboarding-hidden/deploy-workload/content-lib-menu-item.png)
@@ -58,25 +59,27 @@ The steps involved in the exercise are:
 
 8. The import library item wizard will appear. Enter the URL of the .iso image you wish to import. To make things easier without requiring full network connectivity to the Internet or an on-premise share, the IBM Cloud internal mirrors can be leveraged. In the example below, the Rocky Linux 8.4 minimal ISO has been input. 
    
+   <u>Note</u>: The following URLs will only work from within the IBM Cloud Private Network.
+   
    - Rocky Linux 8.4 minimal
      http://mirrors.service.networklayer.com/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso
-
+   
    - Rocky Linux 8.4 DVD 
      http://mirrors.service.networklayer.com/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso
-
+   
    - CentOS 8.4 DVD
      http://mirrors.service.networklayer.com/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-dvd1.iso
-
+   
    - Ubuntu Server 20.04.1 LTS (Focal Fossa)
      http://mirrors.service.networklayer.com/ubuntu-releases/ubuntu-server/focal/daily/current/focal-legacy-server-amd64.iso
-
+   
    - Ubuntu Server 20.04.3 LTS (Focal Fossa)
      http://mirrors.service.networklayer.com/ubuntu-releases/ubuntu-server/focal/daily-live/current/focal-live-server-amd64.iso
 
      
 
      ![Architecture](images/solution-vmware-onboarding-hidden/deploy-workload/import-iso-url.png)
-
+   
 9. Once completed your ISO image will show up as “Other Types” in the content library.
 
    ![Architecture](images/solution-vmware-onboarding-hidden/deploy-workload/imported-iso-other-types.png)
@@ -94,5 +97,5 @@ The steps involved in the exercise are:
 ## Next Steps
 {: #vmware-onboarding-deploy-workload-next-steps}
 
-At this point, you have successfully deployed your cluster!  Additional resources can be found within our [documentation](https://{DomainName}/vmwaresolutions?topic=vmwaresolutions-understand-responsib).
+At this point, you have successfully deployed your cluster!  Additional resources can be found within our [documentation](https://{DomainName}/docs/vmwaresolutions?topic=vmwaresolutions-understand-responsib).
 

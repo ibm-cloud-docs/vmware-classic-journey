@@ -30,7 +30,7 @@ This step of the deployment journey will cover the configuration of the gateway 
 - Rules provided are for private-to-private communication only. This configuration will allow the vSRX to supplant the Backend Customer Router (BCR) as the ‘next-hop’ for the VCS environment.
 - While firewall policies are configured, they are set as ‘allow all’. More detailed configuration is possible but outside the scope of this document. 
 
-- A configured VPN client in order to be able to connect to the IBM Cloud private network for your account. You can find information on how to download and install the standalone VPN client at https://{DomainName}/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients. 
+- A configured VPN client in order to be able to connect to the IBM Cloud private network for your account. You can find information on how to download and install the standalone VPN client at [Setup SSL VPN Client](/docs/vmware-classic-journey?topic=vmware-classic-journey-vmware-onboarding-ssl-vpn-client). 
 
 
 
