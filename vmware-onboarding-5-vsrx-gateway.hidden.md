@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-09"
+  years: 2021, 2022
+lastupdated: "2022-02-01"
 
 subcollection: vmware-classic-journey
 
@@ -27,7 +27,6 @@ The gateway device both provides a network boundary protecting all traffic enter
 
 ## Detailed Steps
 {: #vmware-onboarding-vsrx-gateway-prereqs}
-
 {: step}
 
 1. Go to the VMware Solutions Resources view and select the vCenter server instance.
@@ -47,54 +46,43 @@ The gateway device both provides a network boundary protecting all traffic enter
 
    
 
-1. Choose to order a new gateway device.  
-   
+1. Choose to order a new gateway device by clicking on **Order**. 
 
-   **Resource details:**
+   1. Resource details:
+      - Vendor: Juniper
+      - Version: 20.4R2-S2 (which is the latest version at this time). While a 1Gpbs is available the VCS is 10Gbps.
+      - License: Choose **standard. 
+      - Hostname: <enter a hostname for example nf-gw01>
+      - Domain name: <enter a domain for example wdc07.mycompany.local>
+      - High Availability: We strongly recommend High availability remain checked
+      - HA hostname: <enter a hostname for example nf-gw02>
+      - HA domain: <enter a domain for example wdc07.mycompany.local>
 
-   * Vendor: Juniper
+   2. Location:
 
-   - Version: 20.4R2-S2 (which is the latest version at this time). While a 1Gpbs is available the VCS is 10Gbps.
-   - License: Choose standard. 
-   - Hostname: <enter a hostname for example nf-gw01>
-   - Domain name: <enter a domain for example wdc07.mycompany.local>
-   - High Availability: We strongly recommend High availability remain checked
-   - HA hostname: <enter a hostname for example nf-gw02>
-   - HA domain: <enter a domain for example wdc07.mycompany.local>
+      - Location: Choose the data center your VCS is deployed in (In the example WDC07 is selected as that matches the VCS.)
+      - Pod: Choose the pod your VCS is deployed in. (In this example, wdc07.pod01 is selected because "bcr01a – pod01" was derived from the previous step.)
 
-   **Location:**
+   3. Server profile:
+      - Server profile: The default selection (Intel Xeon 5218) may be used.
+      - RAM: the default selection (32GB) may be used.
+      - SSH keys: As vSRX’s are shared devices between multiple administrators we recommend that no key be added at this time and keys be added manually later.
 
-   - Location: Choose the data center your VCS is deployed in (In the example WDC07 is selected as that matches the VCS.)
+   4. Storage disks: The default selection can be used.
 
-   * Pod: Choose the pod your VCS is deployed in. (In this example, wdc07.pod01 is selected because "bcr01a – pod01" was derived from the previous step.)
+   5. Network interface:
+      - Interface: Public and private
+      - Port redunancy: Automatic
+      - Port speed: 10Gbps
 
-   **Server profile:**
-
-   - Server profile: The default selection (Intel Xeon 5218) may be used.
-   - RAM: the default selection (32GB) may be used.
-   - SSH keys: As vSRX’s are shared devices between multiple administrators we recommend that no key be added at this time and keys be added manually later.
-
-   **Server profile:**
-
-   - Storage disks: The default selection can be used.
-
-   **Network interface:**
-
-   - Interface: Public and private
-   - Port redunancy: Automatic
-   - Port speed: 10Gbps
-
-   **Add-ons:**
-
-   - All the remaining fields can be left at default.
+   6. Add-ons:
+      - All the remaining fields can be left at default.
 
    
 
-1. Review the order and when satisfied click create.  Once complete, your device will have an Active status (as shown in the figure below).
+1. Review the order and when satisfied click on **Create**.  Once complete, your device will have an `Active` status (as shown in the figure below).
 
    <img src="images/solution-vmware-onboarding-hidden/order-vsrx/vsrx-ordered.png" alt="vSRX Ordered" style="zoom:50%;" />
-
-<!--#/istutorial#-->
 
 
 ## Next Steps

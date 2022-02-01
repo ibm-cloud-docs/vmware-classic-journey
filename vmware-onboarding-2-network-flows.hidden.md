@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-01"
 
 subcollection: vmware-classic-journey
 
@@ -34,7 +34,6 @@ By using NSX logical switches with your own IP addresses (BYOIP) you gain the gr
 
 ## Detailed Flows
 {: #vmware-onboarding-network-flows-details}
-{: step}
 
 In this section, detailed network flows will be reviewed. The following network architecture will be broken down into five different flows:
 

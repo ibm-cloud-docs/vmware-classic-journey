@@ -29,7 +29,6 @@ Ordering a VCS environment is accomplished via an ordering form in the {{site.da
 
 ## Detailed Steps
 {: #vmware-onboarding-order-cluster-storage-provision}
-{: step}
 
 1. Login to the {{site.data.keyword.Bluemix_notm}} and navigate to the {{site.data.keyword.Bluemix_notm}} Catalog. Search for and click on the VMware Solutions tile:
 
