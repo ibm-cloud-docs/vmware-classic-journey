@@ -146,19 +146,19 @@ The steps below will walk through the steps required in order to correctly confi
        ```
        {: pre}
 
-     2. To set the security policy from VCS subnets to VCS subnets run the following commands:
-        ```sh
-        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN description "Allow all traffic between subnets in the VCS zone"
+    2. To set the security policy from VCS subnets to VCS subnets run the following commands:
+       ```sh
+       set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN description "Allow all traffic between subnets in the VCS zone"
 
-        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match source-address any
+       set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match source-address any
 
-        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match destination-address any
+       set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match destination-address any
 
-        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match application any
+       set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN match application any
 
-        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN then permit
-        ```
-        {:pre}
+       set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN then permit
+       ```
+       {:pre}
 
     3. To set the security policy from the VCS to the {{site.data.keyword.Bluemix_notm}} Private network run the following commands:
         ```sh
@@ -179,6 +179,7 @@ The steps below will walk through the steps required in order to correctly confi
     commit check
     ```
     {: pre}
+    
 17. Assuming no errors commit your configuration:
     ```sh
     commit
