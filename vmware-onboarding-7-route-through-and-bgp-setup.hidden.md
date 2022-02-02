@@ -158,28 +158,28 @@ The steps below will walk through the steps required in order to correctly confi
 
        set security policies from-zone IBM_VCS to-zone IBM_VCS policy ALLOW_BETWEEN then permit
        ```
-       {:pre}
+       {: pre}
 
     3. To set the security policy from the VCS to the {{site.data.keyword.Bluemix_notm}} Private network run the following commands:
-        ```sh
-        set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND description "Allow all traffic between subnets in the VCS zone" 
+       ```sh
+       set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND description "Allow all traffic between subnets in the VCS zone" 
 
-        set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match source-address any
+       set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match source-address any
 
-        set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match destination-address any
+       set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match destination-address any
 
-        set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match application any 
+       set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND match application any 
 
-        set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND then permit
-        ```
-        {: pre}
+       set security policies from-zone IBM_VCS to-zone IBM_CLOUD_PRIVATE policy ALLOW_OUTBOUND then permit
+       ```
+       {: pre}
 
 16. To confirm your configuration is correct run:
     ```sh
     commit check
     ```
     {: pre}
-    
+
 17. Assuming no errors commit your configuration:
     ```sh
     commit
