@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-05"
+  years: 2021, 2022
+lastupdated: "2022-02-02"
 
 subcollection: vmware-classic-journey
 
@@ -18,18 +18,18 @@ subcollection: vmware-classic-journey
 ## Overview
 {: #vmware-onboarding-deploy-workload-overview}
 
-After provisioning your  environment you may wish to test and validate your settings prior to bringing over your production virtual machines. Using content libraries and IBM Clouds internal mirrors this can be easily accomplished. 
+After provisioning your environment you may wish to test and validate your settings prior to bringing over your production virtual machines. Using content libraries and {{site.data.keyword.Bluemix_notm}}s internal mirrors this can be easily accomplished. 
 
 The steps involved in the exercise are:
 
 1. Creation of a content library
-2. Import of operating system .isos from IBM Cloud internal mirrors
+2. Import of operating system .isos from {{site.data.keyword.Bluemix_notm}} internal mirrors
 3. Use of the content library in deploying a virtual machine. 
 
 ## Create Content Library
 {: #vmware-onboarding-deploy-workload-create-library}
 
-1. Log into vCenter using the IP address and credentials provided in the IBM Cloud for VMware Solutions portal.
+1. Log into vCenter using the IP address and credentials provided in the {{site.data.keyword.Bluemix_notm}} for VMware Solutions portal.
 
 2. From the default start page using the menu select Content Libraries.
 
@@ -57,9 +57,9 @@ The steps involved in the exercise are:
 
    ![Architecture](images/solution-vmware-onboarding-hidden/deploy-workload/import-iso.png)
 
-8. The import library item wizard will appear. Enter the URL of the .iso image you wish to import. To make things easier without requiring full network connectivity to the Internet or an on-premise share, the IBM Cloud internal mirrors can be leveraged. In the example below, the Rocky Linux 8.4 minimal ISO has been input. 
+8. The import library item wizard will appear. Enter the URL of the .iso image you wish to import. To make things easier without requiring full network connectivity to the Internet or an on-premise share, the {{site.data.keyword.Bluemix_notm}} internal mirrors can be leveraged. In the example below, the Rocky Linux 8.4 minimal ISO has been input. 
    
-   <u>Note</u>: The following URLs will only work from within the IBM Cloud Private Network.
+   **Note:** The following URLs will only work from within the {{site.data.keyword.Bluemix_notm}} Private Network.
    
    - Rocky Linux 8.4 minimal
      http://mirrors.service.networklayer.com/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-02-01"
+lastupdated: "2022-02-02"
 
 subcollection: vmware-classic-journey
 
@@ -20,11 +20,9 @@ In this section of the deployment journey, a SSL VPN client is configured. The S
 
 ![Architecture](images/solution-vmware-onboarding-hidden/ssl-vpn/journey-map.png){: class="center"}
 
-As shown in the architecute below, the SSL VPN allows you to connect to the 10.x.x.x Private IPs of the  VCS Cluster for managemenet and configuration purposes.  For production, businesses will typically establish network connectivity to the {{site.data.keyword.Bluemix_notm}} Classic Infra via Direct Link or Site-to-Site VPN, but having the SSL VPN client configured is useful for initial configuration and/or to serve as a backup.
-
+As shown in the architecute below, the SSL VPN allows you to connect to the 10.x.x.x Private IPs of the VCS Cluster for managemenet and configuration purposes.  For production, businesses will typically establish network connectivity to the {{site.data.keyword.Bluemix_notm}} Classic Infra via Direct Link or Site-to-Site VPN, but having the SSL VPN client configured is useful for initial configuration and/or to serve as a backup.
 
 ![Architecture](images/solution-vmware-onboarding-hidden/ssl-vpn/architecture-sslvpn-callout.jpg){: class="center"}
-
 
 ## Detailed Instructions
 {: #vmware-onboarding-ssl-vpn-client-instructions}
@@ -33,7 +31,7 @@ Complete the steps on the VPN [Getting started](https://{DomainName}/docs/iaas-v
 
 1. Enable SSL VPN access for your account
 2. Set the SSL VPN password
-3. Login to the VPN
+3. Log into the VPN
 
 Once connected, validate connectivity by pinging the vCenter IP and/or opening the vCenter console:
 
