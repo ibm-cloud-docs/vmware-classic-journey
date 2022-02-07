@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-07"
 
 subcollection: vmware-classic-journey
 
@@ -41,7 +41,7 @@ The deployment journey will be assuming the following scenario. Please note that
    - 6 hosts (bare metal servers) each running Intel Xeon Gold 5218 with 192GB RAM
    - 5TB of NFS storage 
 
-{{site.data.keyword.vmwaresolutions_full_notm}} provides different offerings to address different client needs and the [offering comparison chart](https://{DomainName}/vmwaresolutions?topic=vmwaresolutions-inst_comp_chart) details the differences.
+{{site.data.keyword.vmwaresolutions_full_notm}} provides different offerings to address different client needs and the [offering comparison chart](https://{DomainName}/docs/vmwaresolutions?topic=vmwaresolutions-inst_comp_chart) details the differences.
 {: tip}
 
 ## Architecture
