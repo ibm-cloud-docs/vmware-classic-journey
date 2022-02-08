@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-02-07"
+lastupdated: "2022-02-08"
 
 subcollection: vmware-classic-journey
 
@@ -15,9 +15,6 @@ subcollection: vmware-classic-journey
 
 {{site.data.keyword.vmwaresolutions_full_notm}} makes it simpler for your organization to capitalize on the tremendous value of the cloud. The solution provides a path to migrate VMware workloads to the {{site.data.keyword.Bluemix_notm}} while using existing tools, technologies and skills from your on-premises environment.  The information contained within this document is meant to serve as a technical guide for starting with a new {{site.data.keyword.Bluemix_notm}} towards a fully configured VMware instance. 
 {: shortdesc}
-
-This tutorial may incur costs. Use the [Cost Estimator](https://{DomainName}/estimator/review) to generate a cost estimate based on your projected usage.
-{: tip}
 
 Welcome to the Deployment Journey for VMware on {{site.data.keyword.Bluemix_notm}}! Use the sidebar on the left to navigate between the journey points.
 {: tip}
