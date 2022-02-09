@@ -29,7 +29,7 @@ Welcome to the Deployment Journey for VMware on {{site.data.keyword.Bluemix_notm
 
 The deployment journey will be assuming the following scenario. Please note that while your circumstance may not be exactly identical, you will still benefit from the overall journey steps and concepts covered in this guide.
 
-- Goal is to deploy VMware workload on {{site.data.keyword.Bluemix_notm}}.
+- The goal is to deploy VMware workload on {{site.data.keyword.Bluemix_notm}}.
 - VMs will need to be able to access the Internet (source NAT) as well as certain VMs will need to be directly accessible from the Internet (destination NAT).
 - Already familiar with Juniper networking technology on-premises, and wishes to do the same on {{site.data.keyword.Bluemix_notm}}. So a vSRX Gateway device will be used.
 - An initial non-production environment to be provisioned:
