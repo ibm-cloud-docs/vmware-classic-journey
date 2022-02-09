@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-09"
+  years: 2021, 2022
+lastupdated: "2022-01-31"
 
 subcollection: vmware-classic-journey
 
@@ -15,7 +15,7 @@ subcollection: vmware-classic-journey
 
 In this section of the deployment journey, a VCS environment is ordered. The information below will focus on commonly used configuration. 
 
-Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud Catalog. Automated deployment will provision the required VLANs, bare metal servers, and VCS software. For the purposes of this guide, the following assumptions are being made:
+Ordering a VCS environment is accomplished via an ordering form in the {{site.data.keyword.Bluemix_notm}} Catalog. Automated deployment will provision the required VLANs, bare metal servers, and VCS software. For the purposes of this guide, the following assumptions are being made:
 
 - A single VMware instance (cluster) to be located in Washington 07 
 - vSphere 7.0 with NSX-T
@@ -30,9 +30,7 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
 ## Detailed Steps
 {: #vmware-onboarding-order-cluster-storage-provision}
 
-{: step}
-
-1. Login to the IBM Cloud and navigate to the IBM Cloud Catalog. Search for and click on the VMware Solutions tile:
+1. Login to the {{site.data.keyword.Bluemix_notm}} and navigate to the {{site.data.keyword.Bluemix_notm}} Catalog. Search for and click on the VMware Solutions tile:
 
    ![Architecture](images/solution-vmware-onboarding-hidden/order-cluster/catalog-tile.png){: class="center"}
    
@@ -65,13 +63,13 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
 
    **Consolidated cluster:**
 
-   - Location: <Select a zone for example wdc07>
+   - Location: _Select a zone for example wdc07_
    - CPU Generation: Cascade Lake
    - CPU model: Gold 5128
    - RAM: 192GB
    - Number of servers: 6
    - Storage: NFS storage
-   - Configure shares individually: leave unchecked
+   - Configure shares individually: _leave unchecked_
    - Number of shares: 1
    - Size: 5000
    - Performance : 2IOPS/GB
@@ -81,16 +79,16 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
 
    **Workload cluster:**
 
-   - Include a separate, additional workload cluster: leave unchecked
+   - Include a separate, additional workload cluster: _leave unchecked_
 
    **Edge servers cluster:**
 
-   - Edge services cluster: leave unchecked
+   - Edge services cluster: _leave unchecked_
 
    **Network interface:**
 
-   - Hostname prefix: <enter a hostname for example esxi-0>
-   - Domain name: <enter a domain name for example wdc07.mycompany.local>
+   - Hostname prefix: _enter a hostname for example esxi-0_
+   - Domain name: _enter a domain name for example wdc07.mycompany.local_
    - DNS configuration: Single public Windows VSI for Active Directory/DNS
 
    **Recommended services:**
@@ -98,12 +96,9 @@ Ordering a VCS environment is accomplished via an ordering form in the IBM Cloud
    - No recommended or optional services at this time
      
 
-1. Once complete the provisioned instance will appear in the VMware Solutions Resources view. 
+1. Once completed. The provisioned instance will appear in the VMware Solutions Resources view. 
 
 ![Architecture](images/solution-vmware-onboarding-hidden/order-cluster/provision-completed.png){: class="center"}
-
-<!--#/istutorial#-->
-
 
 ## Next Steps
 {: #vmware-onboarding-order-cluster-storage-next-steps}
