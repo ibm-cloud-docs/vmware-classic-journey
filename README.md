@@ -6,3 +6,4 @@ Documentation repository for vmware-classic-journey
  
 - Once happy with the changes merge the updates into the `publish` branch.
  -->
+ ![Process](images/process.png)
