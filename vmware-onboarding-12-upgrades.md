@@ -15,7 +15,25 @@ subcollection: vmware-classic-journey
 
 
 
-After provisioning your environment you may wish to test and validate your settings prior to bringing over your production virtual machines. Using content libraries and {{site.data.keyword.Bluemix_notm}}s internal mirrors this can be easily accomplished. 
+The deployment of VMware solution on IBM Cloud may include the following components: 
 
-3. 
+* VMware
+  * vSphere Hypervisor (ESXi) 
+  * vCenter Server
+  * NSX-T
+  * VSAN
+* Entrust
+* Caveonix
+* vRealize 
+* Veeam Backup and Replication
+
+
+
+When applying patches, it is important to ensure version compatibility between each component is maintained. The following  describes where detailed information is provided:
+
+
+* [VMware (vSphere Hypervisor, vCenter Server, NSX-T, and VSAN)](https://interopmatrix.vmware.com/Interoperability?col=1,&row=2,%26670,%26175,%2688,%26116,&isHideGenSupported=true&isHideTechSupported=true&isHideCompatible=false&isHideNTCompatible=false&isHideIncompatible=true&isHideNotSupported=true&isCollection=false)
+* [Entrust](https://my.hytrust.com/s/article/KB10127)
+* [vRealize](https://interopmatrix.vmware.com/Interoperability?col=1,&row=2,%26670,%26175,%2688,%26116,&isHideGenSupported=true&isHideTechSupported=true&isHideCompatible=false&isHideNTCompatible=false&isHideIncompatible=true&isHideNotSupported=true&isCollection=false)
+* [Veeam Backup & Replication](https://www.veeam.com/kb2443)
 
