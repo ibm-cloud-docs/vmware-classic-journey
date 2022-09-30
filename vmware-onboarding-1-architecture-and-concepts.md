@@ -44,7 +44,7 @@ The deployment journey will be assuming the following scenario. Please note that
 ## Architecture
 {: #vmware-onboarding-architecture-and-concepts-prereqs}
 
-The following architecture represents the pattern this deployment journey will following.  
+The following architecture represents the pattern this deployment journey is based on: 
 
 ![Architecture](images/solution-vmware-onboarding-hidden/architecture.jpg){: caption="" caption-side="bottom"}
 
