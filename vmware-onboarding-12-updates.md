@@ -15,7 +15,7 @@ subcollection: vmware-classic-journey
 
 
 
-The deployment of VMware solution on IBM Cloud makes the following components available:
+The deployment of IBM Cloud for VMware Solutions provides the following components:
 
 * VMware
   * vSphere Hypervisor (ESXi) 
