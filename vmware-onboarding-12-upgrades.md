@@ -10,30 +10,32 @@ subcollection: vmware-classic-journey
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Applying Upgrades
+# Applying Updates
 {: #vmware-onboarding-upgrades}
 
 
 
-The deployment of VMware solution on IBM Cloud may include the following components: 
+The deployment of VMware solution on IBM Cloud makes the following components available:
 
 * VMware
   * vSphere Hypervisor (ESXi) 
   * vCenter Server
   * NSX-T
   * VSAN
+  * vRealize 
 * Entrust
 * Caveonix
-* vRealize 
 * Veeam Backup and Replication
 
 
 
-When applying patches, it is important to ensure version compatibility between each component is maintained. The following  describes where detailed information is provided:
+When applying patches, it is important to ensure version compatibility between each component is maintained. Compatibility matrixes are available at the following locations:
 
-
-* [VMware (vSphere Hypervisor, vCenter Server, NSX-T, and VSAN)](https://interopmatrix.vmware.com/Interoperability?col=1,&row=2,%26670,%26175,%2688,%26116,&isHideGenSupported=true&isHideTechSupported=true&isHideCompatible=false&isHideNTCompatible=false&isHideIncompatible=true&isHideNotSupported=true&isCollection=false)
+* [VMware (includes vSphere Hypervisor, vCenter Server, NSX-T, and VSAN, vRealize)](https://interopmatrix.vmware.com/Interoperability?col=1,&row=2,%26670,%26175,%2688,%26116,&isHideGenSupported=true&isHideTechSupported=true&isHideCompatible=false&isHideNTCompatible=false&isHideIncompatible=true&isHideNotSupported=true&isCollection=false)
 * [Entrust](https://my.hytrust.com/s/article/KB10127)
-* [vRealize](https://interopmatrix.vmware.com/Interoperability?col=1,&row=2,%26670,%26175,%2688,%26116,&isHideGenSupported=true&isHideTechSupported=true&isHideCompatible=false&isHideNTCompatible=false&isHideIncompatible=true&isHideNotSupported=true&isCollection=false)
+* [Caveonix](https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-managingcaveonix#managingcaveonix-update)
 * [Veeam Backup & Replication](https://www.veeam.com/kb2443)
 
+
+
+ 
