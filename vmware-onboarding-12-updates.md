@@ -11,7 +11,7 @@ subcollection: vmware-classic-journey
 {{site.data.keyword.attribute-definition-list}}
 
 # Applying Updates
-{: #vmware-onboarding-upgrades}
+{: #vmware-onboarding-updates}
 
 
 
